@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <script src="https://use.fontawesome.com/87704a0b47.js"></script>
+    <style>
+        *{
+            font-family: 'Lato', sans-serif;
+        }
+        body{
+            margin: 0;
+        }
+        .container{
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+        aside{
+            background-color: grey;
+            top :0;
+            display: flex;
+            padding-left: 2.5em;
+        }
+        aside div{
+            margin-top: 1em;
+            margin-left: 2em;
+            color: #ffffff;
+        }
+        aside .image-top{
+            margin-top: 2.5em;   
+        }
+        .icon{
+            padding-top: 1.5em;
+            display: flex;
+            left: 0;
+        }
+        .icon p:nth-child(2){
+            margin-left: 2em;
+        }
+        .icon p:nth-child(3){
+            margin-left: 2em;
+        }
+        .sidebar{
+          background-color: #f0f0f0;
+          color: black;
+          width: 3rem;
+          position:absolute;
+          top: 0;
+          left: 0;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .sidebar > span{
+            width: 3rem;
+            padding: 1.5rem;
+        }
+        .sidebar article{
+            padding-top: 4em;
+            padding-left:1em ;
+        }
+        .content{
+            width: 80%;
+        }
+        footer{
+            margin-top: 2em;
+            width: 100%;
+            height: 6em;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: #43689b;
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+        }
+        footer div{
+          margin-left: 1em;
+        }
+        footer .imagediv{
+            margin-top: 0.5em;
+            margin-left: 0.5em;
+        }
+        footer .description{
+            color: hsl(0, 0%, 100%);
+        }
+        footer .player{
+         color: #ffffff;
+         display: flex;
+         margin-left: 24.5em;   
+        }
+        footer .player i{
+            margin-top: 2.5em;
+            margin-left: 8em;
+        }
+        table{
+            margin-left: 6em;
+        }
+        table tr td{
+            margin-left: 3em;
+            width: 50em;
+            height: 3em;
+        }
+        table tr td button{
+            color: #2626e9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="image-top">
+                <img src="https://vif1g.csb.app/src/assets/cattyboard.jpg" alt="" width="150" height="150">
+            </div>
+            <div class="second">
+                <div>
+                    <H1>CattayBoard Top 100 Single Charts (11.06.36)</H1>
+                    <p>Unknown artist : <br> 2016. charts. 100 songs</p>
+                </div>
+                <div class="icon">
+                <p><i class="las la-play"></i> Play all</p> 
+                <p><i class="las la-plus"></i>Add to</p>
+                <p><i class="las la-ellipsis-h"></i> More</p>  
+                </div>
+            </div>
+        </aside>
+        <section class="sidebar">
+            <span>
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </span>
+            <span>
+                <i class="fa fa-home" aria-hidden="true"></i>
+            </span>
+            <span>
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </span>
+            <span>
+                <i class="fa fa-volume-up" aria-hidden="true"></i>
+            </span>
+            <span>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+            </span>
+            <span>
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </span>
+            <span>
+                <i class="fa fa-cog" aria-hidden="true"></i>
+            </span>
+            <span>
+                <i class="fa fa-soundcloud" aria-hidden="true"></i>
+            </span>
+        </section>
+        <div class="content">
+            <table>
+                <tr>
+                    <td>1.One Dance</td>
+                    <td>Crake feat CatKid & Cyla</td>
+                    <td>2:54</td>
+                    <td><button>CATTY CLOUD SYNC</button></td>
+                </tr>
+                <tr>
+                    <td>2.Panda</td>
+                    <td>Catte</td>
+                    <td>4:06</td>
+                    <td><button>CATTY CLOUD SYNC</button></td>
+                </tr>
+                <tr>
+                    <td>3.Can't Stop the Feeling!</td>
+                    <td>Catin Cimberlake</td>
+                    <td>3:56</td>
+                    <td><button>CATTY CLOUD SYNC</button></td>
+                </tr>
+                <tr>
+                    <td>4.Work From Home</td>
+                    <td>Cat Harmony Feat Colla</td>
+                    <td>3:34</td>
+                    <td><button>CATTY CLOUD SYNC</button></td>
+                </tr>
+            </table>
+            <footer>
+                <div class="imagediv">
+                    <img src="https://vif1g.csb.app/src/assets/cattyboard.jpg" alt="" width="80" height="80">
+                </div>
+                <div class="description">
+                    <h5>If It Ain't Love</h5>
+                    <h5>Catson Derulo</h5>
+                </div>
+                <div class="player">
+                    <i class="las la-step-backward"></i>
+                    <i class="las la-pause"></i>
+                    <i class="las la-step-forward"></i>
+                    <i class="las la-redo-alt"></i>
+                    <i class="las la-random"></i>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
