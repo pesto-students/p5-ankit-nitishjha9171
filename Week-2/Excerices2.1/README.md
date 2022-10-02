@@ -7,7 +7,7 @@
 ### This the view of the web page
 
 ![This is an image](exercise2.1-img-3.png)
-![This is an image](exercise2.1-img-2.png)
+![This is an image](Exercise2.1-img-2.png)
 ![This is an image](exercise2.1-img-1.png)
 
 ### Author 
