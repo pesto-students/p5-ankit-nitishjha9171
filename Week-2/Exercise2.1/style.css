@@ -1,0 +1,163 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+  box-sizing: border-box;
+  background-color: #c8eadf;
+}
+
+.main-container {
+  padding: 0 5%;
+  margin: 3rem 0;
+}
+
+header {
+  padding: 0vw 5vw;
+  text-align: center;
+}
+header h1 {
+  margin: 1em 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 50%;
+}
+
+.colunm-side {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.column .item {
+  margin: 1rem;
+  padding: 10px;
+  border-radius: 16px;
+  background-color: hsla(0, 0%, 100%, 0.7);
+  margin-bottom: 1rem;
+}
+
+.column .item img {
+  height: 100%;
+  width: 100%;
+}
+
+.paragraph {
+  font-size: 17px;
+  padding: 0.5rem;
+}
+
+.column .item h2 {
+  background-color: #1d4245;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+.form {
+  margin: 1rem;
+  width: 50%;
+  left: 0;
+}
+.form-control {
+  display: flex;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form-control .label {
+  width: 30%;
+}
+.form-input{
+    padding: 1rem;
+}
+
+.form-input{
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 0px;
+  border-bottom: 2px solid #ffffff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+.form-input:focus-visible{
+    outline: none;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #2bc496, #0c8983);
+  width: 100%;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  background-size: 200% auto;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-position: right center;
+}
+
+footer {
+  padding: 0.7rem;
+  background-color: #1d4245;
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+footer a {
+  color: #39df9e;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    padding: 0 5%;
+  }
+  .column .item {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .form {
+    margin: 0;
+    width: 100%;
+    left: 0;
+  }
+
+}
